@@ -50,6 +50,14 @@ func NewDefaultAccessToken(appID, appSecret, cacheKeyPrefix string, cache cache.
 	}
 }
 
+// StableAccessTokenRequest struct
+type StableAccessTokenRequest struct {
+	AppID        string `json:"appid"`
+	AppSecret    string `json:"secret"`
+	GrantType    string `json:"grant_type"`
+	ForceRefresh bool   `json:"force_refresh"`
+}
+
 // ResAccessToken struct
 type ResAccessToken struct {
 	util.CommonError
@@ -78,7 +86,7 @@ func (ak *DefaultAccessToken) GetAccessToken() (accessToken string, err error) {
 	// cache失效，从微信服务器获取
 	var resAccessToken ResAccessToken
 	if ak.useStableAccessToken {
-		resAccessToken, err = GetTokenFromServer(fmt.Sprintf(stableAccessTokenURL, ak.appID, ak.appSecret))
+		resAccessToken, err = PostTokenFromServer(ak.appID, ak.appSecret)
 	} else {
 		resAccessToken, err = GetTokenFromServer(fmt.Sprintf(accessTokenURL, ak.appID, ak.appSecret))
 	}
@@ -160,6 +168,30 @@ func GetTokenFromServer(url string) (resAccessToken ResAccessToken, err error) {
 	}
 	if resAccessToken.ErrCode != 0 {
 		err = fmt.Errorf("get access_token error : errcode=%v , errormsg=%v", resAccessToken.ErrCode, resAccessToken.ErrMsg)
+		return
+	}
+	return
+}
+
+// PostTokenFromServer 强制从微信服务器获取token
+func PostTokenFromServer(appId string, appSecret string) (resAccessToken ResAccessToken, err error) {
+	var reqAccessTokenReq = StableAccessTokenRequest{
+		AppID:        appId,
+		AppSecret:    appSecret,
+		GrantType:    "client_credential",
+		ForceRefresh: true,
+	}
+	var body []byte
+	body, err = util.PostJSON(stableAccessTokenURL, reqAccessTokenReq)
+	if err != nil {
+		return
+	}
+	err = json.Unmarshal(body, &resAccessToken)
+	if err != nil {
+		return
+	}
+	if resAccessToken.ErrCode != 0 {
+		err = fmt.Errorf("get stable_access_token error : errcode=%v , errormsg=%v", resAccessToken.ErrCode, resAccessToken.ErrMsg)
 		return
 	}
 	return
