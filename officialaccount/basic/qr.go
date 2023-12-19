@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/kuro-liang/wechat/util"
+	"github.com/kuro-liang/wechat-go/util"
 )
 
 const (

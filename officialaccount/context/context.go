@@ -1,8 +1,8 @@
 package context
 
 import (
-	"github.com/kuro-liang/wechat/credential"
-	"github.com/kuro-liang/wechat/officialaccount/config"
+	"github.com/kuro-liang/wechat-go/credential"
+	"github.com/kuro-liang/wechat-go/officialaccount/config"
 )
 
 // Context struct

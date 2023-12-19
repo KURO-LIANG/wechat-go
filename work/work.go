@@ -1,12 +1,12 @@
 package work
 
 import (
-	"github.com/kuro-liang/wechat/credential"
-	"github.com/kuro-liang/wechat/work/config"
-	"github.com/kuro-liang/wechat/work/context"
-	"github.com/kuro-liang/wechat/work/kf"
-	"github.com/kuro-liang/wechat/work/msgaudit"
-	"github.com/kuro-liang/wechat/work/oauth"
+	"github.com/kuro-liang/wechat-go/credential"
+	"github.com/kuro-liang/wechat-go/work/config"
+	"github.com/kuro-liang/wechat-go/work/context"
+	"github.com/kuro-liang/wechat-go/work/kf"
+	"github.com/kuro-liang/wechat-go/work/msgaudit"
+	"github.com/kuro-liang/wechat-go/work/oauth"
 )
 
 // Work 企业微信

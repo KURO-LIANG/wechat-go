@@ -1,11 +1,11 @@
 package pay
 
 import (
-	"github.com/kuro-liang/wechat/pay/config"
-	"github.com/kuro-liang/wechat/pay/notify"
-	"github.com/kuro-liang/wechat/pay/order"
-	"github.com/kuro-liang/wechat/pay/refund"
-	"github.com/kuro-liang/wechat/pay/transfer"
+	"github.com/kuro-liang/wechat-go/pay/config"
+	"github.com/kuro-liang/wechat-go/pay/notify"
+	"github.com/kuro-liang/wechat-go/pay/order"
+	"github.com/kuro-liang/wechat-go/pay/refund"
+	"github.com/kuro-liang/wechat-go/pay/transfer"
 )
 
 // Pay 微信支付相关API

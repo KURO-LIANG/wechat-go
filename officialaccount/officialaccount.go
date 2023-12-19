@@ -3,23 +3,23 @@ package officialaccount
 import (
 	"net/http"
 
-	"github.com/kuro-liang/wechat/officialaccount/ocr"
+	"github.com/kuro-liang/wechat-go/officialaccount/ocr"
 
-	"github.com/kuro-liang/wechat/officialaccount/datacube"
+	"github.com/kuro-liang/wechat-go/officialaccount/datacube"
 
-	"github.com/kuro-liang/wechat/credential"
-	"github.com/kuro-liang/wechat/officialaccount/basic"
-	"github.com/kuro-liang/wechat/officialaccount/broadcast"
-	"github.com/kuro-liang/wechat/officialaccount/config"
-	"github.com/kuro-liang/wechat/officialaccount/context"
-	"github.com/kuro-liang/wechat/officialaccount/device"
-	"github.com/kuro-liang/wechat/officialaccount/js"
-	"github.com/kuro-liang/wechat/officialaccount/material"
-	"github.com/kuro-liang/wechat/officialaccount/menu"
-	"github.com/kuro-liang/wechat/officialaccount/message"
-	"github.com/kuro-liang/wechat/officialaccount/oauth"
-	"github.com/kuro-liang/wechat/officialaccount/server"
-	"github.com/kuro-liang/wechat/officialaccount/user"
+	"github.com/kuro-liang/wechat-go/credential"
+	"github.com/kuro-liang/wechat-go/officialaccount/basic"
+	"github.com/kuro-liang/wechat-go/officialaccount/broadcast"
+	"github.com/kuro-liang/wechat-go/officialaccount/config"
+	"github.com/kuro-liang/wechat-go/officialaccount/context"
+	"github.com/kuro-liang/wechat-go/officialaccount/device"
+	"github.com/kuro-liang/wechat-go/officialaccount/js"
+	"github.com/kuro-liang/wechat-go/officialaccount/material"
+	"github.com/kuro-liang/wechat-go/officialaccount/menu"
+	"github.com/kuro-liang/wechat-go/officialaccount/message"
+	"github.com/kuro-liang/wechat-go/officialaccount/oauth"
+	"github.com/kuro-liang/wechat-go/officialaccount/server"
+	"github.com/kuro-liang/wechat-go/officialaccount/user"
 )
 
 // OfficialAccount 微信公众号相关API

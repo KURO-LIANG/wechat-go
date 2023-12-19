@@ -29,4 +29,4 @@ if err != nil {
 }
 ```
 
-更多使用方法参考[PKG.DEV](https://pkg.go.dev/github.com/kuro-liang/wechat/miniprogram/tcb)
+更多使用方法参考[PKG.DEV](https://pkg.go.dev/github.com/kuro-liang/wechat-go/miniprogram/tcb)

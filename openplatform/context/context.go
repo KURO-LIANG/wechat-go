@@ -1,7 +1,7 @@
 package context
 
 import (
-	"github.com/kuro-liang/wechat/openplatform/config"
+	"github.com/kuro-liang/wechat-go/openplatform/config"
 )
 
 // Context struct

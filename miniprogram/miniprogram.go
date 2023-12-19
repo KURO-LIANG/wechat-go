@@ -1,20 +1,20 @@
 package miniprogram
 
 import (
-	"github.com/kuro-liang/wechat/credential"
-	"github.com/kuro-liang/wechat/miniprogram/analysis"
-	"github.com/kuro-liang/wechat/miniprogram/auth"
-	"github.com/kuro-liang/wechat/miniprogram/config"
-	"github.com/kuro-liang/wechat/miniprogram/content"
-	"github.com/kuro-liang/wechat/miniprogram/context"
-	"github.com/kuro-liang/wechat/miniprogram/encryptor"
-	"github.com/kuro-liang/wechat/miniprogram/message"
-	"github.com/kuro-liang/wechat/miniprogram/qrcode"
-	"github.com/kuro-liang/wechat/miniprogram/shortlink"
-	"github.com/kuro-liang/wechat/miniprogram/subscribe"
-	"github.com/kuro-liang/wechat/miniprogram/tcb"
-	"github.com/kuro-liang/wechat/miniprogram/urllink"
-	"github.com/kuro-liang/wechat/miniprogram/werun"
+	"github.com/kuro-liang/wechat-go/credential"
+	"github.com/kuro-liang/wechat-go/miniprogram/analysis"
+	"github.com/kuro-liang/wechat-go/miniprogram/auth"
+	"github.com/kuro-liang/wechat-go/miniprogram/config"
+	"github.com/kuro-liang/wechat-go/miniprogram/content"
+	"github.com/kuro-liang/wechat-go/miniprogram/context"
+	"github.com/kuro-liang/wechat-go/miniprogram/encryptor"
+	"github.com/kuro-liang/wechat-go/miniprogram/message"
+	"github.com/kuro-liang/wechat-go/miniprogram/qrcode"
+	"github.com/kuro-liang/wechat-go/miniprogram/shortlink"
+	"github.com/kuro-liang/wechat-go/miniprogram/subscribe"
+	"github.com/kuro-liang/wechat-go/miniprogram/tcb"
+	"github.com/kuro-liang/wechat-go/miniprogram/urllink"
+	"github.com/kuro-liang/wechat-go/miniprogram/werun"
 )
 
 // MiniProgram 微信小程序相关API

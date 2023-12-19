@@ -1,7 +1,7 @@
 package datacube
 
 import (
-	"github.com/kuro-liang/wechat/officialaccount/context"
+	"github.com/kuro-liang/wechat-go/officialaccount/context"
 )
 
 type reqDate struct {
