@@ -3,8 +3,8 @@ package component
 import (
 	"fmt"
 
-	openContext "github.com/kuro-liang/wechat-go/openplatform/context"
-	"github.com/kuro-liang/wechat-go/util"
+	openContext "github.com/kuro-liang/wechat/openplatform/context"
+	"github.com/kuro-liang/wechat/util"
 )
 
 const (

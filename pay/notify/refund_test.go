@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/kuro-liang/wechat-go/pay/config"
+	"github.com/kuro-liang/wechat/pay/config"
 )
 
 func TestNotify_DecryptReqInfo(t *testing.T) {

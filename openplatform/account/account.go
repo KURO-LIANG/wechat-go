@@ -1,6 +1,6 @@
 package account
 
-import "github.com/kuro-liang/wechat-go/openplatform/context"
+import "github.com/kuro-liang/wechat/openplatform/context"
 
 // Account 开放平台张哈管理
 // TODO 实现方法

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/util"
 )
 
 // ResCreateQRCode 获取二维码的返回实体

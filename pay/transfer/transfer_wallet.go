@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/kuro-liang/wechat-go/pay/config"
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/pay/config"
+	"github.com/kuro-liang/wechat/util"
 )
 
 // 付款到零钱

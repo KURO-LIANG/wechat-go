@@ -10,11 +10,11 @@ import (
 	"runtime/debug"
 	"strconv"
 
-	"github.com/kuro-liang/wechat-go/officialaccount/context"
-	"github.com/kuro-liang/wechat-go/officialaccount/message"
+	"github.com/kuro-liang/wechat/officialaccount/context"
+	"github.com/kuro-liang/wechat/officialaccount/message"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/util"
 )
 
 // Server struct

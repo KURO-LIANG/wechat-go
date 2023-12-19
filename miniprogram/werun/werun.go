@@ -3,8 +3,8 @@ package werun
 import (
 	"encoding/json"
 
-	"github.com/kuro-liang/wechat-go/miniprogram/context"
-	"github.com/kuro-liang/wechat-go/miniprogram/encryptor"
+	"github.com/kuro-liang/wechat/miniprogram/context"
+	"github.com/kuro-liang/wechat/miniprogram/encryptor"
 )
 
 // WeRun 微信运动

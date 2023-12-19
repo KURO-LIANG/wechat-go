@@ -1,12 +1,12 @@
 package officialaccount
 
 import (
-	"github.com/kuro-liang/wechat-go/credential"
-	"github.com/kuro-liang/wechat-go/officialaccount"
-	offConfig "github.com/kuro-liang/wechat-go/officialaccount/config"
-	opContext "github.com/kuro-liang/wechat-go/openplatform/context"
-	"github.com/kuro-liang/wechat-go/openplatform/officialaccount/js"
-	"github.com/kuro-liang/wechat-go/openplatform/officialaccount/oauth"
+	"github.com/kuro-liang/wechat/credential"
+	"github.com/kuro-liang/wechat/officialaccount"
+	offConfig "github.com/kuro-liang/wechat/officialaccount/config"
+	opContext "github.com/kuro-liang/wechat/openplatform/context"
+	"github.com/kuro-liang/wechat/openplatform/officialaccount/js"
+	"github.com/kuro-liang/wechat/openplatform/officialaccount/oauth"
 )
 
 // OfficialAccount 代公众号实现业务

@@ -7,7 +7,7 @@ import (
 	"encoding/xml"
 	"errors"
 
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/util"
 )
 
 // reference: https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=9_16&index=10

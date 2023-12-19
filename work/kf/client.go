@@ -1,10 +1,10 @@
 package kf
 
 import (
-	"github.com/kuro-liang/wechat-go/cache"
-	"github.com/kuro-liang/wechat-go/credential"
-	"github.com/kuro-liang/wechat-go/work/config"
-	"github.com/kuro-liang/wechat-go/work/context"
+	"github.com/kuro-liang/wechat/cache"
+	"github.com/kuro-liang/wechat/credential"
+	"github.com/kuro-liang/wechat/work/config"
+	"github.com/kuro-liang/wechat/work/context"
 )
 
 // Client 微信客服实例

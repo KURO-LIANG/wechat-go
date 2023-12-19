@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/util"
 )
 
 // AdSlot 广告位类型

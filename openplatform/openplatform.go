@@ -3,12 +3,12 @@ package openplatform
 import (
 	"net/http"
 
-	"github.com/kuro-liang/wechat-go/officialaccount/server"
-	"github.com/kuro-liang/wechat-go/openplatform/account"
-	"github.com/kuro-liang/wechat-go/openplatform/config"
-	"github.com/kuro-liang/wechat-go/openplatform/context"
-	"github.com/kuro-liang/wechat-go/openplatform/miniprogram"
-	"github.com/kuro-liang/wechat-go/openplatform/officialaccount"
+	"github.com/kuro-liang/wechat/officialaccount/server"
+	"github.com/kuro-liang/wechat/openplatform/account"
+	"github.com/kuro-liang/wechat/openplatform/config"
+	"github.com/kuro-liang/wechat/openplatform/context"
+	"github.com/kuro-liang/wechat/openplatform/miniprogram"
+	"github.com/kuro-liang/wechat/openplatform/officialaccount"
 )
 
 // OpenPlatform 微信开放平台相关api

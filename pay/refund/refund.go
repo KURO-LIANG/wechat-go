@@ -4,8 +4,8 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/kuro-liang/wechat-go/pay/config"
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/pay/config"
+	"github.com/kuro-liang/wechat/util"
 )
 
 var refundGateway = "https://api.mch.weixin.qq.com/secapi/pay/refund"

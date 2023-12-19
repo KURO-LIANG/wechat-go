@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/util"
 )
 
 const (

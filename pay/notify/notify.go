@@ -1,7 +1,7 @@
 package notify
 
 import (
-	"github.com/kuro-liang/wechat-go/pay/config"
+	"github.com/kuro-liang/wechat/pay/config"
 )
 
 // Notify 回调

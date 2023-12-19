@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/kuro-liang/wechat-go/util"
-	"github.com/kuro-liang/wechat-go/work/kf/syncmsg"
+	"github.com/kuro-liang/wechat/util"
+	"github.com/kuro-liang/wechat/work/kf/syncmsg"
 )
 
 const (

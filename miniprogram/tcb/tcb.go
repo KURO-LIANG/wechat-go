@@ -1,6 +1,6 @@
 package tcb
 
-import "github.com/kuro-liang/wechat-go/miniprogram/context"
+import "github.com/kuro-liang/wechat/miniprogram/context"
 
 // Tcb Tencent Cloud Base
 type Tcb struct {

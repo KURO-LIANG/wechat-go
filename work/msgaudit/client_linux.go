@@ -13,8 +13,8 @@ import (
 	"encoding/json"
 	"unsafe"
 
-	"github.com/kuro-liang/wechat-go/util"
-	"github.com/kuro-liang/wechat-go/work/config"
+	"github.com/kuro-liang/wechat/util"
+	"github.com/kuro-liang/wechat/work/config"
 )
 
 // Client 会话存档

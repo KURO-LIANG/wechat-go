@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/util"
 )
 
 const (

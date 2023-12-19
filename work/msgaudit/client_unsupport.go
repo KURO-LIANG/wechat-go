@@ -7,7 +7,7 @@ package msgaudit
 import (
 	"fmt"
 
-	"github.com/kuro-liang/wechat-go/work/config"
+	"github.com/kuro-liang/wechat/work/config"
 )
 
 // Client 会话存档

@@ -3,8 +3,8 @@ package message
 import (
 	"fmt"
 
-	"github.com/kuro-liang/wechat-go/officialaccount/context"
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/officialaccount/context"
+	"github.com/kuro-liang/wechat/util"
 )
 
 const (

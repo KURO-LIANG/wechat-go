@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/kuro-liang/wechat-go/officialaccount/context"
-	officialOauth "github.com/kuro-liang/wechat-go/officialaccount/oauth"
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/officialaccount/context"
+	officialOauth "github.com/kuro-liang/wechat/officialaccount/oauth"
+	"github.com/kuro-liang/wechat/util"
 )
 
 const (

@@ -3,10 +3,10 @@ package js
 import (
 	"fmt"
 
-	"github.com/kuro-liang/wechat-go/credential"
-	"github.com/kuro-liang/wechat-go/officialaccount/context"
-	officialJs "github.com/kuro-liang/wechat-go/officialaccount/js"
-	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat/credential"
+	"github.com/kuro-liang/wechat/officialaccount/context"
+	officialJs "github.com/kuro-liang/wechat/officialaccount/js"
+	"github.com/kuro-liang/wechat/util"
 )
 
 // Js wx jssdk
