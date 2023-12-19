@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/silenceper/wechat/v2/officialaccount/context"
-	"github.com/silenceper/wechat/v2/util"
+	"github.com/kuro-liang/wechat/officialaccount/context"
+	"github.com/kuro-liang/wechat/util"
 )
 
 const (
@@ -302,6 +302,7 @@ type reqBatchGetMaterial struct {
 }
 
 // BatchGetMaterial 批量获取永久素材
+//
 //reference:https://developers.weixin.qq.com/doc/offiaccount/Asset_Management/Get_materials_list.html
 func (material *Material) BatchGetMaterial(permanentMaterialType PermanentMaterialType, offset, count int64) (list ArticleList, err error) {
 	var accessToken string

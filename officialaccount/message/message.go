@@ -3,7 +3,7 @@ package message
 import (
 	"encoding/xml"
 
-	"github.com/silenceper/wechat/v2/officialaccount/device"
+	"github.com/kuro-liang/wechat/officialaccount/device"
 )
 
 // MsgType 基本消息类型

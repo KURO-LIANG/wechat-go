@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/silenceper/wechat/v2/cache"
+	"github.com/kuro-liang/wechat/cache"
 )
 
 // Config .config for 微信开放平台

@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/silenceper/wechat/v2/miniprogram/context"
-	"github.com/silenceper/wechat/v2/util"
+	"github.com/kuro-liang/wechat/miniprogram/context"
+	"github.com/kuro-liang/wechat/util"
 )
 
 const (

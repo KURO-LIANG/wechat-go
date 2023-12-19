@@ -4,8 +4,8 @@ import (
 	"encoding/xml"
 	"errors"
 
-	"github.com/silenceper/wechat/v2/pay/notify"
-	"github.com/silenceper/wechat/v2/util"
+	"github.com/kuro-liang/wechat/pay/notify"
+	"github.com/kuro-liang/wechat/util"
 )
 
 var queryGateway = "https://api.mch.weixin.qq.com/pay/orderquery"

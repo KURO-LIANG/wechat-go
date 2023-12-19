@@ -3,7 +3,7 @@ package tcb
 import (
 	"fmt"
 
-	"github.com/silenceper/wechat/v2/util"
+	"github.com/kuro-liang/wechat/util"
 )
 
 const (
@@ -18,6 +18,7 @@ type InvokeCloudFunctionRes struct {
 }
 
 // InvokeCloudFunction 云函数调用
+//
 //reference:https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-http-api/functions/invokeCloudFunction.html
 func (tcb *Tcb) InvokeCloudFunction(env, name, args string) (*InvokeCloudFunctionRes, error) {
 	accessToken, err := tcb.GetAccessToken()

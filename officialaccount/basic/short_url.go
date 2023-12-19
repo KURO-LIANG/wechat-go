@@ -3,7 +3,7 @@ package basic
 import (
 	"fmt"
 
-	"github.com/silenceper/wechat/v2/util"
+	"github.com/kuro-liang/wechat/util"
 )
 
 const (
