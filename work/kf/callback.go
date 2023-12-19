@@ -3,7 +3,7 @@ package kf
 import (
 	"encoding/xml"
 
-	"github.com/kuro-liang/wechat/util"
+	"github.com/kuro-liang/wechat-go/util"
 )
 
 // SignatureOptions 微信服务器验证参数

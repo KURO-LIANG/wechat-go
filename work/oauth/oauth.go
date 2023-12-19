@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/kuro-liang/wechat/util"
-	"github.com/kuro-liang/wechat/work/context"
+	"github.com/kuro-liang/wechat-go/util"
+	"github.com/kuro-liang/wechat-go/work/context"
 )
 
 // Oauth auth

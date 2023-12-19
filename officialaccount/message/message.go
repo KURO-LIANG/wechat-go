@@ -3,7 +3,7 @@ package message
 import (
 	"encoding/xml"
 
-	"github.com/kuro-liang/wechat/officialaccount/device"
+	"github.com/kuro-liang/wechat-go/officialaccount/device"
 )
 
 // MsgType 基本消息类型

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kuro-liang/wechat/cache"
-	"github.com/kuro-liang/wechat/util"
+	"github.com/kuro-liang/wechat-go/cache"
+	"github.com/kuro-liang/wechat-go/util"
 )
 
 // getTicketURL 获取ticket的url

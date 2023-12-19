@@ -2,7 +2,7 @@
 package config
 
 import (
-	"github.com/kuro-liang/wechat/cache"
+	"github.com/kuro-liang/wechat-go/cache"
 )
 
 // Config for 企业微信

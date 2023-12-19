@@ -1,9 +1,9 @@
 package miniprogram
 
 import (
-	openContext "github.com/kuro-liang/wechat/openplatform/context"
-	"github.com/kuro-liang/wechat/openplatform/miniprogram/basic"
-	"github.com/kuro-liang/wechat/openplatform/miniprogram/component"
+	openContext "github.com/kuro-liang/wechat-go/openplatform/context"
+	"github.com/kuro-liang/wechat-go/openplatform/miniprogram/basic"
+	"github.com/kuro-liang/wechat-go/openplatform/miniprogram/component"
 )
 
 // MiniProgram 代小程序实现业务

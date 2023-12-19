@@ -1,4 +1,4 @@
-module github.com/kuro-liang/wechat
+module github.com/kuro-liang/wechat-go
 
 go 1.14
 

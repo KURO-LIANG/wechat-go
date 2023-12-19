@@ -18,7 +18,7 @@
 
 ## 快速开始
 ```
-go get github.com/kuro-liang/wechat
+go get github.com/kuro-liang/wechat-go
 ```
 
 以下是一个微信公众号处理消息接收以及回复的例子：

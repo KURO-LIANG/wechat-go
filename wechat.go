@@ -3,17 +3,17 @@ package wechat
 import (
 	"os"
 
-	"github.com/kuro-liang/wechat/cache"
-	"github.com/kuro-liang/wechat/miniprogram"
-	miniConfig "github.com/kuro-liang/wechat/miniprogram/config"
-	"github.com/kuro-liang/wechat/officialaccount"
-	offConfig "github.com/kuro-liang/wechat/officialaccount/config"
-	"github.com/kuro-liang/wechat/openplatform"
-	openConfig "github.com/kuro-liang/wechat/openplatform/config"
-	"github.com/kuro-liang/wechat/pay"
-	payConfig "github.com/kuro-liang/wechat/pay/config"
-	"github.com/kuro-liang/wechat/work"
-	workConfig "github.com/kuro-liang/wechat/work/config"
+	"github.com/kuro-liang/wechat-go/cache"
+	"github.com/kuro-liang/wechat-go/miniprogram"
+	miniConfig "github.com/kuro-liang/wechat-go/miniprogram/config"
+	"github.com/kuro-liang/wechat-go/officialaccount"
+	offConfig "github.com/kuro-liang/wechat-go/officialaccount/config"
+	"github.com/kuro-liang/wechat-go/openplatform"
+	openConfig "github.com/kuro-liang/wechat-go/openplatform/config"
+	"github.com/kuro-liang/wechat-go/pay"
+	payConfig "github.com/kuro-liang/wechat-go/pay/config"
+	"github.com/kuro-liang/wechat-go/work"
+	workConfig "github.com/kuro-liang/wechat-go/work/config"
 	log "github.com/sirupsen/logrus"
 )
 
